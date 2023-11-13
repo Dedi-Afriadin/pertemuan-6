@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* colors */
+        .name {
+            color: red;
+        }
+        .rgb {
+            color: rgb(0, 70, 30);
+        }
+        .hex {
+            color: #97d951;
+        }
+        .hsl {
+            color: hsl(360, 100%, 85%);
+        }
+
+        /* bacground */
+        .image {
+        height: 200px;
+        background-image: url(images.jpeg);
+        }
+        .repeat {
+        height: 200px;
+        background-image: url(images.jpeg);
+        background-repeat: no-repeat;
+        }
+        .attachment {
+        height: 300px;
+        background-image: url(images.jpeg);
+        background-attachment: fixed;
+        }
+        .shorthand{
+            height: 200px;
+            background: url(images.jpeg) no-repeat;
+            color: #FFFFFF;
+        }
+
+        /* border */
+            .solid{
+                border: 2px solid red;
+            }
+            .dotted{
+                border: 2px dotted blue;
+            }
+            .double{
+                border: 4px double green;
+            }
+            .dashed{
+                border: 2px dashed yellow;
+            }
+
+            /* text */
+            .color{
+                color: blue;
+            }
+            .alignment{
+                background-color: aqua;
+                text-align: center;
+            }
+
+            /* text decoration */
+            .overline{
+                text-decoration: overline red;
+            }
+            .line-through{
+                text-decoration: line-through blue;
+            }
+            .underline{
+                text-decoration: underline green;
+            }
+            .none-underline{
+                text-decoration: none;
+
+            }
+
+            /* text transform */
+            .uppercase{
+                text-transform: uppercase;
+            }
+            .capitalize{
+                text-transform: capitalize;
+            }
+            .lowercase{
+                text-transform: lowercase;
+            }
+
+            /* text shadow */
+            .shadow{
+                background-color: aqua;
+                color: white;
+                text-shadow: 2px 2px 4px black;
+            }
+
+            /* button */
+            .button {
+            width: 70px;
+            height: 30px;
+            background-color: red;
+            border-radius: 12px;
+            cursor: pointer;
+            }
+            .button:hover {
+            background-color: blue;
+            }
+            .button:active {
+            background-color: green;
+            }
+            .button p {
+            color: white;
+            text-align: center;
+            padding-top: 5px;
+            }
+
+    </style>
+</head>
+<body>
+
+    <!-- colors -->
+    <div>
+        <div class="name">color name</div>
+        <div class="rgb">color rgb</div>
+        <div class="hex">color Hex</div>
+        <div class="hsl">color Hsl</div>
+    </div>
+
+    <!-- background -->
+    <div>
+        <h1 class="image">background image</h1>
+        <h1 class="repeat">background repead</h1>
+        <h1 class="attachment">background attachment</h1>
+        <h1 class="shorthand">background shortthand</h1>
+    </div>
+    
+    <!-- border -->
+    <div>
+        <span class="solid">border solid</span>
+        <span class="dotted">border dotted</span>
+        <span class="double">border double</span>
+        <span class="dashed">border dashed</span>
+    </div>
+
+
+    <!-- text -->
+    <div>
+        <h3 class="color">text color</h3>
+        <h3 class="alignment">text alignment</h3>
+
+        <!-- text decoration -->
+        <span class="overline">text overline</span>
+        <span class="line-through">text line-through</span>
+        <span class="underline">text underline</span>
+        <a href="#" class="none-underline">underline</a>
+
+        <!-- text transform -->
+        <h3 class="uppercase">text transform uppercase</h3>
+        <h3 class="capitalize">text transform capitalize</h3>
+        <h3 class="lowercase">TEXT TRANSFORM LOWERCASE</h3>
+
+        <!-- text shadow -->
+        <h3 class="shadow">text shadow</h3>
+    </div>
+
+    <!-- button -->
+    <div class="button">
+        <p>Button</p>
+    </div>
+
+
+</body>
+</html>
